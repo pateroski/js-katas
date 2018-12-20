@@ -1,4 +1,4 @@
-# etereo-js-katas
+# js-katas
 
 Se pide implementar las siguientes funciones (katas) siguiendo los siguientes requisitos para cada una de ellas.
 
