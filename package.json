@@ -1,0 +1,31 @@
+{
+  "name": "etereo-js-katas",
+  "version": "0.1.0",
+  "description": "JS coding katas challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require babel-register --file=tests/test.js tests/*.spec.js",
+    "test:debug": "./node_modules/mocha/bin/mocha --require babel-register --inspect-brk --file=tests/test.js tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/etereo/etereo-js-katas.git"
+  },
+  "author": "daniel@etereo.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/etereo/etereo-js-katas/issues"
+  },
+  "engines": {
+    "node": ">= 8.9.4"
+  },
+  "homepage": "https://gitlab.com/etereo/etereo-js-katas#README",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
